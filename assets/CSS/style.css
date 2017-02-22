@@ -1,0 +1,71 @@
+/* BEGIN CSS*/
+
+body{ background-color: #3B5998;
+	font-family: georgia, serif;	
+}
+
+header { 
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+ }
+
+nav {float: right; 
+	display: inline-block;
+	padding: 30px;
+
+}
+
+ul a {padding: 20px
+}
+
+h1 {
+	font-size: 32px;
+	background-color: #4aaaa5; 
+	padding: 30px;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+section {
+	float: right;
+}
+
+h2 {
+	font-size: 32px;
+	margin-left: 20px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+
+footer {
+ position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 80px;
+  padding: 20px;
+}
+
+.wrapper img
+	{
+	float: left;
+	padding: 20px;
+}
+
+.wrapper p {
+	font-size: 18px;
+	margin: 20px;
+	line-height: 24px;
+}
+
