@@ -12,23 +12,27 @@ h1 {
 	padding: 30px 30px 0 30px;
 	margin-bottom: 0;
 	font-size: 32px;
+	font-weight: bold;
 }
 
 h2 {
 	font-size: 24px;
 	margin-top: 10px;
+	font-weight: bold;
 }
 
 h3 {
 	font-size: 18px;
-	margin-left: 40px;
+	margin-left: 0;
+	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 nav {
 	width: 300px;
 	float: right;
-	margin-top: 0;
-	
+	margin-top: 30px;
+	margin-left: 50px;	
 }
 
 footer {
@@ -41,9 +45,11 @@ footer {
 
 #info {
 	padding-bottom: 20px;
-	margin-right: 70px;
+	margin-right: 90px;
 	text-align: right;
 	word-spacing: 10px;
+	font-size: 18px;
+	text-decoration: none;
 }
 
 #content {
@@ -58,16 +64,26 @@ footer {
 }
 
 #words {
+	margin-left: 10px;
+	margin-right: 0;
 	font-size: 16px;
-	line-height: 22px;
+	line-height: 24px;
 	padding: 20px;
 	width: 600px;
 	float: left;
 }
 
 #words img {
+	margin-top: 10px;
 	padding: 5px;
+	border: .5px solid black;
+	background: white;
 }
+
+
+
+
+/*Pasted form code*/
 
 #form-main{
 	width:100%;
