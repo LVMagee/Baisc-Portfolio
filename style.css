@@ -4,7 +4,7 @@ body {
 }
 
 header {
-	background-color:   #74C2E1;
+	background-color: #74C2E1;
 	margin-top: 60px;
 }
 
@@ -28,6 +28,18 @@ h3 {
 	font-weight: bold;
 }
 
+ul {
+	list-style-type: none;
+}
+
+li  {
+	display: inline-block;
+}
+
+li a:hover {
+	color: #D94E67;
+}
+
 nav {
 	width: 300px;
 	float: right;
@@ -44,6 +56,7 @@ footer {
 }
 
 #info {
+	list-style: none;
 	padding-bottom: 20px;
 	margin-right: 90px;
 	text-align: right;
@@ -81,12 +94,38 @@ footer {
 	background: white;
 }
 
+/*For Portfolio Page*/
+
+.folio {
+  position: relative;
+  width: 275px;
+  overflow: auto;
+  float: left;
+}
+
+.folio h4 {
+  position: absolute;
+  bottom: 5px;
+  margin-bottom: 0;
+  padding: 15px;
+  width: 200px;
+  color: #31464F;
+  text-align: center;
+  line-height: 5px;
+  font-weight: 300;
+  background: #5D9CDE;
+  border-bottom: 0;
+}
+
+
+
+
 /*Pasted form code*/
 
 #form-main{
 	width:100%;
 	float:left;
-	padding-top:0px;
+	padding-top:30px;
 	margin-left: 20px;
 	margin-top: 0;
 }
@@ -129,7 +168,7 @@ footer {
 	border:#30aed6 solid 3px;
 }
 
-/* Icons ---------------------------------- */
+/*/* Icons ---------------------------------- */
 #name{
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
 	background-size: 30px 30px;
